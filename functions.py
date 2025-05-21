@@ -41,9 +41,13 @@ def load_model(model_path, num_classes=5):
     model.aux_classifier[4]  = torch.nn.Conv2d(256, num_classes, kernel_size=(1,1), stride=(1,1))
 
     model.eval()
-    model.load_state_dict(torch.load(model_path))
+    load_device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    if load_device.type == 'cpu':
+        model.load_state_dict(torch.load(model_path, map_location=load_device))
+    else:
+        model.load_state_dict(torch.load(model_path))
     model.eval()
-    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    device = load_device
     model.to(device)
     return model, device
 
