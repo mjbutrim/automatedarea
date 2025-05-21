@@ -43,13 +43,11 @@ def load_model(model_path, num_classes=5):
     model.eval()
     load_device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     if load_device.type == 'cpu':
-        model.load_state_dict(torch.load(model_path, map_location=load_device))
+        model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
     else:
         model.load_state_dict(torch.load(model_path))
-    model.eval()
-    device = load_device
     model.to(device)
-    return model, device
+    return model, load_device
 
 # Function for applying the model to segment images
 def predict_and_visualize(image_path, model, transforms, device, num_classes = 5, float32=True, norm_to_one=True, save = False, visualize = True):
