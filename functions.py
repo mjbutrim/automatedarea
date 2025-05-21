@@ -46,7 +46,7 @@ def load_model(model_path, num_classes=5):
         model.load_state_dict(torch.load(model_path, map_location=torch.device('cpu')))
     else:
         model.load_state_dict(torch.load(model_path))
-    model.to(device)
+    model.to(load_device)
     return model, load_device
 
 # Function for applying the model to segment images
