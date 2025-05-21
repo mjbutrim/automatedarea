@@ -50,10 +50,10 @@ def load_model(model_path, num_classes=5):
     return model, load_device
 
 # Function for applying the model to segment images
-def predict_and_visualize(image_path, model, transforms, device, num_classes = 5, float32=True, norm_to_one=True, save = False, visualize = True):
+def predict_and_visualize(image_path, model, device, num_classes = 5, float32=True, norm_to_one=True, save = False, visualize = True):
     mean = np.array([0.485, 0.456, 0.406])
     std = np.array([0.229, 0.224, 0.225])
-    data_transforms = A.Compose([
+    transforms = A.Compose([
     A.geometric.resize.LongestMaxSize(max_size = 960, interpolation = cv2.INTER_NEAREST),
     A.CLAHE(clip_limit=4.0, tile_grid_size=(8, 8), p=1),
     A.Lambda(mask=to_long),
@@ -71,7 +71,7 @@ def predict_and_visualize(image_path, model, transforms, device, num_classes = 5
             input_image = input_image.astype(np.float32) / 255.0
         if float32:
             input_image = input_image.astype(np.float32)
-        transformed = transforms(image=input_image)
+        transformed = (image=input_image)
         batch = torch.unsqueeze(transformed['image'], 0).to(device)
 
         im = batch[0].cpu().numpy()
