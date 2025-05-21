@@ -444,7 +444,11 @@ def reconstruct_area(image_path, model, device, conversion, plot = True, save = 
 
     #Compute median density across the top rectangles
     average_density = np.median([r[5] for r in filtered_rectangles])
-    area_calc = 10**(1.63 - 1.69 * average_density) if average_density > 0 else 0
+    
+    try:
+        area_calc = 10**(1.63 - 1.69 * average_density)
+    except (TypeError, OverflowError):
+        area_calc = 0
 
     # Step 7: Plot skeleton & overlay top rectangles
     if plot:
