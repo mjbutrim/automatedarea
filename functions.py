@@ -71,7 +71,7 @@ def predict_and_visualize(image_path, model, device, num_classes = 5, float32=Tr
             input_image = input_image.astype(np.float32) / 255.0
         if float32:
             input_image = input_image.astype(np.float32)
-        transformed = (image=input_image)
+        transformed = transforms(image=input_image)
         batch = torch.unsqueeze(transformed['image'], 0).to(device)
 
         im = batch[0].cpu().numpy()
