@@ -4,7 +4,7 @@ import numpy as np
 import glob
 import torch
 import torchvision.models as models
-import Albumentations as A
+import albumentations as A
 import cv2
 from albumentations.pytorch import ToTensorV2
 import matplotlib
