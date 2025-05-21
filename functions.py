@@ -274,7 +274,7 @@ def is_strong_secondary(region_skeleton, rect_width, rect_height, min_length_rat
 
     return True
 
-def reconstruct_area(image_path, conversion, plot = True, save = False):
+def reconstruct_area(image_path, model, device, conversion, plot = True, save = False):
     """Reconstruct leaf area from vein density and skeleton analysis.
     
     Args:
@@ -292,7 +292,7 @@ def reconstruct_area(image_path, conversion, plot = True, save = False):
     input_image = cv2.cvtColor(input_image, cv2.COLOR_BGR2RGB)
 
     # First round of segmentation
-    testData = predict_and_visualize(input_image, save = False, visualize = False)
+    testData = predict_and_visualize(input_image, model, device, save = False, visualize = False)
     predicted_mask = torch.argmax(testData, dim=0).cpu().numpy()
     vein_mask = np.where(predicted_mask == 2, 255, 0).astype(np.uint8)
     vein_mask = cv2.morphologyEx(vein_mask, cv2.MORPH_CLOSE, kernel)
@@ -307,7 +307,7 @@ def reconstruct_area(image_path, conversion, plot = True, save = False):
     adjusted_conversion_factor = conversion_factor * scale_ratio
 
     #New predicted mask segmentation
-    testData2 = predict_and_visualize(rotated, save = False, visualize = False)
+    testData2 = predict_and_visualize(rotated, model, device, save = False, visualize = False)
     predicted_mask = torch.argmax(testData2, dim=0).cpu().numpy()
 
     original_height, original_width = input_image.shape[:2]
