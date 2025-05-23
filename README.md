@@ -6,6 +6,8 @@ Matthew J. Butrim; Benjamin Koger; Samuel S. Robertson; Ellen D Currano
 
 Dept. of Geology and Geophyiscs, School of Computing, Dept. of Botany, University of Wyoming, Laramie, WY, USA.
 
+Contact: mbutrim@uwyo.edu
+
 ![16-1-DMNH_EPI_63864](https://github.com/user-attachments/assets/46d58f83-1123-42d3-9d21-3831367a5aa4)
 *Automated leaf segmentation applied to a leaf fragment from the Denver Basin, Colorado.  DMNH EPI_63864*
 
