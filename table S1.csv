@@ -1,0 +1,141 @@
+"Table S1: Leaf area reconstruction data.  File Name refers to the image file name and corresponds with image file names used in Butrim and Royer (2020).  Conversion is the pixel to cm conversion factor for the image.  PreArea is the area in cm^2 reported in Butrim and Royer (2020).  FragArea is the area measured directly from the alphashape hull.  Median_area is the area calculated from secondary vein density using Eq 1.  log_area, log_frag, and median_stat are PreArea, FragArea, and MedianArea log10-transformed.  error is the absolute difference between the median_stat and log_area.  Median is median secondary vein density.  n is number of successful rectangles.  ",,,,,,,,,,,
+File Name,Locality,Conversion,PreArea,FragArea,MedianArea,log_area,log_frag,median_stat,error,median,n
+,,px/cm,cm^2,cm^2,cm^2,log10(cm^2),log10(cm^2),log10(cm^2),log10(cm^2),log10(cm/cm^2),
+Badger's Nose UCMP 142 Alnus newberryi,Badger's Nose,426,14.91,12.70,8.78,1.17,1.10,0.94,0.23,0.41,9
+Badger's Nose UCMP 142 Cercidiphyllum 1-1,Badger's Nose,642,4.79,5.15,6.45,0.68,0.71,0.81,0.13,0.49,1
+Badger's Nose UCMP 142 Cercidiphyllum 6-1,Badger's Nose,683,2.13,2.29,4.22,0.33,0.36,0.63,0.30,0.60,2
+Badger's Nose UCMP 142 Litseaphyllum,Badger's Nose,352,36.46,33.97,55.15,1.56,1.53,1.74,0.18,-0.06,31
+Badger's Nose UCMP 142 Parrotia brevipetiolata 1-1,Badger's Nose,681,10.96,11.14,9.03,1.04,1.05,0.96,0.08,0.40,41
+Badger's Nose UCMP 142 Parrotia brevipetiolata 2-1,Badger's Nose,642,27.22,22.87,26.67,1.43,1.36,1.43,0.01,0.12,26
+Badger's Nose UCMP 142 Parrotia brevipetiolata 5-1,Badger's Nose,462,21.88,22.77,25.84,1.34,1.36,1.41,0.07,0.13,71
+Badger's Nose UCMP 142 Plafkeria obliquifolia 1-1,Badger's Nose,660,5.58,5.98,5.70,0.75,0.78,0.76,0.01,0.52,13
+Badger's Nose UCMP 142 Plafkeria obliquifolia 2-1,Badger's Nose,621,5.51,6.03,5.62,0.74,0.78,0.75,0.01,0.52,11
+Badger's Nose UCMP 142 Rhus 1-1,Badger's Nose,433,17.10,18.34,17.70,1.23,1.26,1.25,0.01,0.23,100
+Badger's Nose UCMP 142 Rhus 2-1,Badger's Nose,677,4.98,9.58,14.00,0.70,0.98,1.15,0.45,0.29,44
+Badger's Nose UCMP 142 Rosa hilliae,Badger's Nose,595,1.67,1.89,4.13,0.22,0.28,0.62,0.39,0.60,14
+Badger's Nose UCMP 142 Ternstroemites,Badger's Nose,604,6.19,10.50,19.71,0.79,1.02,1.29,0.50,0.20,18
+Badger's Nose UCMP 142 Ulmus,Badger's Nose,463,10.71,8.98,11.00,1.03,0.95,1.04,0.01,0.35,10
+Goshen 263 or 65 Allophylus wilsoni (matt),Goshen,273,15.82,17.39,13.10,1.20,1.24,1.12,0.08,0.31,5
+Goshen 263 or 65 Ficus plinerva 2 (matt),Goshen,271,20.42,17.81,17.45,1.31,1.25,1.24,0.07,0.23,1
+Goshen 263 or 65 Ficus plinerva 4 (matt),Goshen,286,19.92,19.19,24.73,1.30,1.28,1.39,0.09,0.14,7
+Goshen 3932 Allophylus wilsoni 195,Goshen,289,15.50,15.21,20.34,1.19,1.18,1.31,0.12,0.19,52
+Goshen 3932 Allophylus wilsoni 251,Goshen,279,28.07,29.71,30.36,1.45,1.47,1.48,0.03,0.09,20
+Goshen 3932 Allophylus wilsoni 295,Goshen,276,14.74,15.78,21.63,1.17,1.20,1.34,0.17,0.18,32
+Goshen 3932 Anona prereticulata 185,Goshen,267,23.87,23.76,24.28,1.38,1.38,1.39,0.01,0.15,46
+Goshen 3932 Anona prereticulata 218,Goshen,274,19.74,19.16,21.02,1.30,1.28,1.32,0.03,0.18,16
+Goshen 3932 Anona prereticulata 242,Goshen,276,21.36,22.09,28.86,1.33,1.34,1.46,0.13,0.10,7
+Goshen 3932 Aristolochia mexiana 200,Goshen,289,60.56,64.11,34.25,1.78,1.81,1.53,0.25,0.06,74
+Goshen 3932 Callichlamys zeteki 269,Goshen,290,32.05,33.84,21.49,1.51,1.53,1.33,0.17,0.18,31
+Goshen 3932 Cordia oregona 255,Goshen,274,24.30,19.02,18.21,1.39,1.28,1.26,0.13,0.22,9
+Goshen 3932 Cordia oregona 256,Goshen,278,29.93,25.09,28.51,1.48,1.40,1.45,0.02,0.11,15
+Goshen 3932 Cordia rotunda 221,Goshen,290,39.38,36.09,24.45,1.60,1.56,1.39,0.21,0.14,14
+Goshen 3932 Cupania packardi 186,Goshen,290,21.29,23.37,14.65,1.33,1.37,1.17,0.16,0.28,14
+Goshen 3932 Cupania packardi 234,Goshen,292,12.35,24.42,13.93,1.09,1.39,1.14,0.05,0.29,35
+Goshen 3932 Cupania packardi 240,Goshen,275,17.45,18.75,15.55,1.24,1.27,1.19,0.05,0.26,31
+Goshen 3932 Cupania packardi 241,Goshen,275,14.80,12.58,21.69,1.17,1.10,1.34,0.17,0.18,1
+Goshen 3932 Cupania packardi 243,Goshen,284,12.47,12.69,11.56,1.10,1.10,1.06,0.03,0.34,23
+Goshen 3932 Diospyros oregona 288,Goshen,173,63.24,65.34,52.30,1.80,1.82,1.72,0.08,-0.05,40
+Goshen 3932 Drimys americana 275,Goshen,282,45.42,44.10,57.10,1.66,1.64,1.76,0.10,-0.07,30
+Goshen 3932 Ficus potentially (matt),Goshen,269,15.45,15.61,16.36,1.19,1.19,1.21,0.02,0.25,25
+Goshen 3932 Ficus quisumbingi 249,Goshen,292,60.08,61.55,51.98,1.78,1.79,1.72,0.06,-0.05,9
+Goshen 3932 Hydrangea russelli 253,Goshen,294,96.00,94.10,52.42,1.98,1.97,1.72,0.26,-0.05,104
+Goshen 3932 Laurophyllum merilli 207,Goshen,287,25.02,24.06,32.27,1.40,1.38,1.51,0.11,0.07,76
+Goshen 3932 Laurophyllum merrilli (matt),Goshen,299,62.80,92.20,52.12,1.80,1.96,1.72,0.08,-0.05,51
+Goshen 3932 Laurophyllum merrilli 206,Goshen,289,41.31,28.22,38.11,1.62,1.45,1.58,0.03,0.03,84
+Goshen 3932 Lindera oregona 211,Goshen,281,11.35,12.33,17.24,1.05,1.09,1.24,0.18,0.23,15
+Goshen 3932 Lucuma standleyi (matt),Goshen,287,22.93,25.08,30.69,1.36,1.40,1.49,0.13,0.09,67
+Goshen 3932 Lucuma standleyi 2 (matt),Goshen,298,41.81,38.35,40.06,1.62,1.58,1.60,0.02,0.02,150
+Goshen 3932 Lucuma standleyi 208,Goshen,277,63.16,65.16,43.66,1.80,1.81,1.64,0.16,0.00,190
+Goshen 3932 Lucuma standleyi 296,Goshen,264,45.84,46.41,50.23,1.66,1.67,1.70,0.04,-0.04,69
+Goshen 3932 Magnolia hilgardiana 280,Goshen,289,48.33,38.19,30.92,1.68,1.58,1.49,0.19,0.08,3
+Goshen 3932 Magnolia reticulata 259,Goshen,283,33.79,34.48,39.42,1.53,1.54,1.60,0.07,0.02,39
+Goshen 3932 Meliosma aesculifolia 225,Goshen,287,61.30,65.15,49.30,1.79,1.81,1.69,0.09,-0.03,134
+Goshen 3932 Meliosma goshenensis (matt),Goshen,280,53.08,52.03,56.65,1.72,1.72,1.75,0.03,-0.07,60
+Goshen 3932 Meliosma goshenensis 239,Goshen,291,31.45,35.36,40.78,1.50,1.55,1.61,0.11,0.01,87
+Goshen 3932 Meliosma goshenensis 9 (matt),Goshen,297,33.84,31.68,33.94,1.53,1.50,1.53,0.00,0.06,111
+Goshen 3932 Meliosma gosheniensis 232,Goshen,290,49.87,42.77,44.95,1.70,1.63,1.65,0.05,-0.01,102
+Goshen 3932 Meliosma goshensis 2 (matt),Goshen,282,44.01,43.98,47.77,1.64,1.64,1.68,0.04,-0.03,114
+Goshen 3932 Meliosma goshiensis 231,Goshen,277,19.92,29.73,24.90,1.30,1.47,1.40,0.10,0.14,44
+Goshen 3932 Meliosma goshiensis 289,Goshen,284,40.52,46.58,32.12,1.61,1.67,1.51,0.10,0.07,85
+Goshen 3932 Nectandra presanguinea 198,Goshen,282,17.83,17.58,24.53,1.25,1.25,1.39,0.14,0.14,11
+Goshen 3932 Nectandra presanguinea 2 (matt),Goshen,302,29.47,40.71,49.10,1.47,1.61,1.69,0.22,-0.03,31
+Goshen 3932 Nectandra presanguinea 202,Goshen,286,31.53,31.94,36.25,1.50,1.50,1.56,0.06,0.04,102
+Goshen 3932 Nectandra presanguinea 271,Goshen,276,8.09,8.76,11.54,0.91,0.94,1.06,0.15,0.34,3
+Goshen 3932 Ocotea eocernua 291,Goshen,281,26.19,30.39,74.94,1.42,1.48,1.87,0.46,-0.14,13
+Goshen 3932 Ocotea eocernua 292,Goshen,281,54.11,57.44,49.49,1.73,1.76,1.69,0.04,-0.04,21
+Goshen 3932 Phyllites lanensis 235,Goshen,275,15.34,16.81,25.09,1.19,1.23,1.40,0.21,0.14,5
+Goshen 3932 Psychotria oregona 267,Goshen,283,14.10,14.74,18.12,1.15,1.17,1.26,0.11,0.22,11
+Goshen 3932 Quercus howei 236,Goshen,159,157.24,165.94,123.33,2.20,2.22,2.09,0.11,-0.27,41
+Goshen 3932 Quercus howei 237,Goshen,163,122.83,104.15,87.22,2.09,2.02,1.94,0.15,-0.18,51
+Goshen 3932 Quercus howei 298,Goshen,169,159.22,250.88,116.78,2.20,2.40,2.07,0.13,-0.26,94
+Goshen 3932 Quercus lanensis 268,Goshen,279,15.12,14.76,26.88,1.18,1.17,1.43,0.25,0.12,4
+Goshen 3932 Tetracera oregona 196,Goshen,289,22.08,18.94,13.97,1.34,1.28,1.15,0.20,0.29,28
+Goshen 3932 Tetracera oregona 233,Goshen,279,26.99,48.16,22.85,1.43,1.68,1.36,0.07,0.16,57
+Goshen 3961 Ficus 2 (matt),Goshen,274,72.32,87.67,78.05,1.86,1.94,1.89,0.03,-0.15,7
+Goshen 3961 Ficus goshenensis (matt),Goshen,296,11.22,12.41,18.22,1.05,1.09,1.26,0.21,0.22,18
+Goshen 3961 Ficus quisumbingi 2,Goshen,281,31.40,33.78,21.93,1.50,1.53,1.34,0.16,0.17,13
+Goshen 3961 Magnolia reticulata (matt),Goshen,296,36.24,35.20,23.02,1.56,1.55,1.36,0.20,0.16,24
+Goshen 3961 Meliosma goshiensis 4,Goshen,280,27.31,23.07,26.76,1.44,1.36,1.43,0.01,0.12,38
+Goshen 3961 Meliosma goshiensis,Goshen,287,25.14,22.64,29.84,1.40,1.35,1.47,0.07,0.09,22
+Goshen 3961 Meliosma rostrata 2 (matt),Goshen,288,43.17,43.89,57.66,1.64,1.64,1.76,0.13,-0.08,70
+Goshen 3961 Nectandra presanguinea 2,Goshen,282,18.64,19.04,22.67,1.27,1.28,1.36,0.09,0.16,34
+Goshen 3961 Nectandra presanguinea 3 (matt),Goshen,278,25.94,23.11,21.84,1.41,1.36,1.34,0.07,0.17,19
+Goshen 3961 Viburnum eocenicum (matt),Goshen,281,37.76,33.63,23.51,1.58,1.53,1.37,0.21,0.16,4
+Goshen Allophylus wilsoni UO 12,Goshen,348,23.20,23.10,23.03,1.37,1.36,1.36,0.00,0.16,13
+Goshen Angiosperm Ficus quisumbingi (matt) UO 2,Goshen,258,92.28,97.63,89.61,1.97,1.99,1.95,0.01,-0.19,122
+Goshen Angiosperm Tetracera oregona 3 (matt),Goshen,361,23.64,22.91,8.52,1.37,1.36,0.93,0.44,0.42,44
+Goshen Anona prereticulata (matt) YPM 73083,Goshen,471,15.97,15.93,13.94,1.20,1.20,1.14,0.06,0.29,70
+Goshen Aristolochia mexiana (matt) UO 3,Goshen,246,31.06,33.50,29.04,1.49,1.53,1.46,0.03,0.10,12
+Goshen Ficus quisumbingi (matt) UO 22,Goshen,355,36.50,37.92,45.20,1.56,1.58,1.66,0.09,-0.01,40
+Goshen Ficus quisumbingi (matt) UO 7,Goshen,383,69.91,59.88,38.62,1.84,1.78,1.59,0.26,0.03,44
+Goshen Lucuma standleyi (matt) UO 21,Goshen,367,23.87,24.08,36.07,1.38,1.38,1.56,0.18,0.05,58
+Goshen Meliosma goshenensis (matt) UO 13,Goshen,351,26.63,29.56,19.50,1.43,1.47,1.29,0.14,0.20,106
+Goshen Meliosma goshenensis (matt) UO 8,Goshen,360,43.70,46.57,37.22,1.64,1.67,1.57,0.07,0.04,120
+Goshen Meliosma goshenensis F36221,Goshen,357,25.53,26.79,28.28,1.41,1.43,1.45,0.04,0.11,123
+Goshen Quercus howei (matt) UO 5,Goshen,247,84.85,86.31,62.18,1.93,1.94,1.79,0.14,-0.09,115
+Goshen Quercus howeii Anona prereticulata (matt) UO 11,Goshen,371,43.03,46.57,47.62,1.63,1.67,1.68,0.04,-0.03,10
+Goshen Tetracera oregona (matt) UO,Goshen,506,23.94,24.72,10.28,1.38,1.39,1.01,0.37,0.37,73
+Goshen UO2748 Rhododendron (Sapium standleyi (matt)) F37007,Goshen,377,8.15,8.47,6.26,0.91,0.93,0.80,0.11,0.49,38
+LaPorte P208 A 920,LaPorte,303,44.13,43.48,19.56,1.64,1.64,1.29,0.35,0.20,7
+LaPorte P208 Acalypha serrulata 919,LaPorte,285,19.88,20.71,21.31,1.30,1.32,1.33,0.03,0.18,35
+LaPorte P208 Angiosperm 3,LaPorte,288,15.86,15.57,21.99,1.20,1.19,1.34,0.14,0.17,9
+LaPorte P208 Angiosperm 6,LaPorte,273,5.20,5.77,15.80,0.72,0.76,1.20,0.48,0.26,9
+LaPorte P208 Angiosperm 9,LaPorte,364,37.09,32.46,42.62,1.57,1.51,1.63,0.06,0.00,24
+LaPorte P208 Angiosperm 909,LaPorte,283,71.57,73.23,37.74,1.85,1.86,1.58,0.28,0.03,111
+LaPorte P208 Cinnamomum acrodroreum 855,LaPorte,281,17.58,18.15,13.76,1.25,1.26,1.14,0.11,0.29,8
+LaPorte P208 Davilla intermida 939,LaPorte,293,62.29,61.59,40.01,1.79,1.79,1.60,0.19,0.02,76
+LaPorte P208 Davilla intermida 940,LaPorte,283,15.17,16.12,9.76,1.18,1.21,0.99,0.19,0.38,2
+LaPorte P208 Euphorbiophyllum multiflorum 922,LaPorte,293,34.97,32.50,17.97,1.54,1.51,1.25,0.29,0.22,5
+LaPorte P208 Euphorbiophyllum multiformum 926,LaPorte,290,17.31,17.73,18.78,1.24,1.25,1.27,0.04,0.21,9
+LaPorte P208 Ficus goshenensis 889,LaPorte,298,64.84,67.72,20.46,1.81,1.83,1.31,0.50,0.19,8
+LaPorte P208 Ilex oregona 931,LaPorte,273,9.13,9.81,12.50,0.96,0.99,1.10,0.14,0.32,3
+LaPorte P208 Laurophllum raminervum 903,LaPorte,271,13.62,14.81,20.51,1.13,1.17,1.31,0.18,0.19,5
+LaPorte P208 Laurophyllum intermediam 901,LaPorte,289,26.21,5.68,10.86,1.42,0.75,1.04,0.38,0.35,1
+LaPorte P208 Laurophyllum raminervum 902,LaPorte,290,8.18,8.97,15.52,0.91,0.95,1.19,0.28,0.26,5
+LaPorte P208 Leguminosites falcatum 911,LaPorte,289,30.06,26.20,28.82,1.48,1.42,1.46,0.02,0.10,29
+LaPorte P208 Meliosma goshenensis 932,LaPorte,290,34.62,31.34,36.71,1.54,1.50,1.56,0.03,0.04,55
+LaPorte P208 Persea praelingua 907,LaPorte,293,11.26,12.53,8.12,1.05,1.10,0.91,0.14,0.43,6
+LaPorte P208 Petrea rotunda 947,LaPorte,300,79.10,79.03,74.27,1.90,1.90,1.87,0.03,-0.14,38
+LaPorte P208 Phyllites laportiana 955,LaPorte,307,67.17,68.57,41.80,1.83,1.84,1.62,0.21,0.01,68
+LaPorte P208 Sterculia ovata 938,LaPorte,283,17.20,17.21,20.16,1.24,1.24,1.30,0.07,0.19,8
+LaPorte P208 Styrax curvatus 943,LaPorte,288,23.50,23.54,23.41,1.37,1.37,1.37,0.00,0.16,15
+LaPorte P208 Tabernaemontana intermedia 944,LaPorte,285,14.80,16.43,24.48,1.17,1.22,1.39,0.22,0.14,22
+Wilamette PA6 Betulacaeae 3,Willamette,270,33.30,44.93,29.95,1.52,1.65,1.48,0.05,0.09,49
+Wilamette PA6 Betulaceae (matt) 2,Willamette,265,38.69,40.24,30.91,1.59,1.60,1.49,0.10,0.08,76
+Wilamette PA6 Betulaceae 390051,Willamette,275,15.37,16.42,17.97,1.19,1.22,1.25,0.07,0.22,33
+Wilamette PA6 Fagus (matt),Willamette,267,9.29,12.42,11.90,0.97,1.09,1.08,0.11,0.33,13
+Wilamette PA6 Fagus 390041,Willamette,270,39.40,34.96,92.99,1.60,1.54,1.97,0.37,-0.20,9
+Wilamette PA6 Platanus 390031,Willamette,273,42.34,19.71,24.15,1.63,1.29,1.38,0.24,0.15,4
+Wilamette PA6 Quercus 390017,Willamette,275,19.68,19.58,12.99,1.29,1.29,1.11,0.18,0.31,17
+Wilamette PA6 Quercus 390053,Willamette,269,56.68,31.23,80.86,1.75,1.49,1.91,0.15,-0.16,2
+Wilamette PA6 Rhus varians 390037,Willamette,274,8.65,9.21,9.50,0.94,0.96,0.98,0.04,0.39,12
+Wilamette PA6 Rhus varians 390060,Willamette,274,7.03,11.01,13.00,0.85,1.04,1.11,0.27,0.31,11
+Wilamette PA6DSC_0068,Willamette,270,8.93,12.89,12.24,0.95,1.11,1.09,0.14,0.32,10
+Wilamette PA6Fagaceae 390008,Willamette,274,27.92,6.65,12.42,1.45,0.82,1.09,0.35,0.32,2
+Willamette B7326 ANgiosperm PB4814,Willamette,375,6.70,8.87,7.79,0.83,0.95,0.89,0.07,0.44,19
+Willamette B7326 Alnus (matt) PB4955,Willamette,354,45.92,36.32,30.23,1.66,1.56,1.48,0.18,0.09,47
+Willamette B7326 Alnus (matt) PB4980,Willamette,353,27.62,9.30,15.50,1.44,0.97,1.19,0.25,0.26,2
+Willamette B7326 Betulaceae (matt) PB4882,Willamette,374,16.38,16.59,16.64,1.21,1.22,1.22,0.01,0.24,26
+Willamette B7326 Quercus consimilis (matt) PB20529,Willamette,353,13.67,14.36,17.43,1.14,1.16,1.24,0.11,0.23,68
+Willamette B7326 Quercus consimilis (matt) PB4982,Willamette,365,24.89,22.22,31.41,1.40,1.35,1.50,0.10,0.08,36
+Willamette B7326 Rhus varians (matt) PB4881,Willamette,377,6.11,5.70,11.54,0.79,0.76,1.06,0.28,0.34,12
